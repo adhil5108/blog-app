@@ -1,0 +1,14 @@
+{
+  "blogs": [
+    {
+      "id": "1",
+      "title": "Why I Write at Midnight",
+      "content": "There's something magical about the quiet hum of midnight. While the world sleeps, my mind races with thoughts, stories, and wild ideas that demand to be written. This blog explores how night inspires creativity and why I choose to type under the stars instead of the sun."
+    },
+    {
+      "id": "2",
+      "title": "The Sound of Rain and Writing",
+      "content": "Rain taps against my window like an old friend reminding me to slow down. With every drop, the world softens, and my thoughts become clearer. This blog dives into how rainy days fuel my creativity and the strange calm that comes with grey skies and a blank page."
+    }
+  ]
+}

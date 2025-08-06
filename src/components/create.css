@@ -1,0 +1,44 @@
+#create {
+  display: flex;
+  flex-direction: column;
+  max-width: 700px;
+  margin: 50px auto;
+  padding: 30px;
+  background-color: #2C4165;
+  color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+#create input,
+#create textarea {
+  margin-bottom: 20px;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  background-color: #1A263A;
+  color: #fff;
+}
+textarea{
+    height: 300px;
+}
+#create button {
+  padding: 12px;
+  background-color: #B3C7F7;
+  color: #1A263A;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+#create button:hover {
+  background-color: #89A6FF;
+}
+#create h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
