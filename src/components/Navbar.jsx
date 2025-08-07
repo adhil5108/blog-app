@@ -8,7 +8,8 @@ function Navbar() {
       <div className="nav-logo">Echo & Ink</div>
       <div className="nav-links">
        <Link to={'/'}>Home</Link> 
-       <Link to={'./create'}>Create Blog</Link> 
+       <Link to={'/create'}>Create Blog</Link> 
+       
       </div>
     </nav>
   );

@@ -6,9 +6,6 @@ import CreateBlog from './components/CreateBlog.jsx'
 import Home from './components/Home.jsx'
 
 function App() {
-
-
-
 return (
 <>
 <Navbar/>
@@ -16,6 +13,7 @@ return (
 <Routes>
   <Route path='/' element={<Home/>}/>
   <Route path='/create' element={<CreateBlog/> }/>
+  
 </Routes>
 
 
