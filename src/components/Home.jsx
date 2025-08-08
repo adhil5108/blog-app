@@ -15,7 +15,7 @@ useEffect(()=>{
  <div>
     <h1 style={{display:"flex",justifyContent:"center", marginTop:"20px", fontSize:"60px"}}>Read Blogs</h1>
   <div id='blogs'>
-{data.map((e,i)=>(
+{[...data].reverse().map((e,i)=>(
     <div className="blog">
         <h1>{e.title}</h1>
         <p> {e.content}</p>
